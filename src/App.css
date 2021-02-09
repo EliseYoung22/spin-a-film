@@ -7,6 +7,10 @@
   pointer-events: none;
 }
 
+.container {
+  height: calc(100vh - 55px) !important;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -35,4 +39,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.MuiBottomNavigation-root {
+  background-color: #f5c55b !important;
 }
